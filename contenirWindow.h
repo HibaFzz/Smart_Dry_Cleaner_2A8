@@ -1,0 +1,4 @@
+#ifndef CONTENIRWINDOW_H
+#define CONTENIRWINDOW_H
+
+#endif // CONTENIRWINDOW_H
