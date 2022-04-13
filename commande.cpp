@@ -13,6 +13,10 @@
 #include <QFileDialog>
 #include<QPdfWriter>
 #include<QSqlRecord>
+#include<QDesktopServices>
+#include <QTextStream>
+#include <QPainter>
+#include<QMessageBox>
 Commande::Commande()
 {
 
@@ -152,3 +156,19 @@ Commande::Commande()
         model->setQuery("select IDEMP from EMPlOYE");
         return model;
     }
+
+    QSqlQueryModel* Commande::statistiques(){
+
+        QSqlQueryModel* model=new QSqlQueryModel();
+        model->setQuery("SELECT  count (ID_COM),to_char(DATE_RECEP,'mm-yyyy')as MONTH FROM COMMANDE group by to_char(DATE_RECEP,'mm-yyyy') order by to_char(DATE_RECEP,'mm-yyyy')ASC ");
+
+        return model;}
+
+
+    QSqlQueryModel* Commande::statistiques1(){
+
+        QSqlQueryModel* model=new QSqlQueryModel();
+        model->setQuery("SELECT  count (ID_COM),to_char(DATE_LIVR,'mm-yyyy')as MONTH FROM COMMANDE group by to_char(DATE_LIVR,'mm-yyyy') order by to_char(DATE_LIVR,'mm-yyyy')ASC ");
+
+        return model;}
+
