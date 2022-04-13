@@ -26,6 +26,10 @@ public:
     QSqlQueryModel * rechercher_multi(QDate,QDate,int,int,int);
     QSqlQueryModel * trier_commande_id();
     QSqlQueryModel * trier_commande_dtr(QString);
+    void genererpdf();
+    QSqlQueryModel * statistiques();
+    QSqlQueryModel * statistiques1();
+
 
     /*QSqlQueryModel * trier_commande_dtl(QDate);*/
 
