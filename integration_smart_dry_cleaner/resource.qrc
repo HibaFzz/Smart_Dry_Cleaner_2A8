@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>icons8-add-50.png</file>
+        <file>icons8-delete-64.png</file>
+        <file>icons8-edit-64 (1).png</file>
+        <file>icons8-pdf-50.png</file>
+        <file>icons8-search-64 (2).png</file>
+        <file>wt.jpg</file>
+        <file>fast dry.png</file>
+        <file>Capture d’écran 2022-04-06 014158.png</file>
+        <file>icons8-synchronize-48.png</file>
+        <file>icons8-pie-chart-report-50.png</file>
+        <file>icons8-return-50 (1).png</file>
+        <file>icons8-log-out-64.png</file>
+        <file>icons8-clients-64.png</file>
+        <file>icons8-vêtements-50.png</file>
+        <file>icons8-visible-30.png</file>
+        <file>icons8-accueil-50.png</file>
+        <file>icons8-cacher-30.png</file>
+        <file>employes.png</file>
+        <file>client.png</file>
+        <file>icons8-order-64 (1).png</file>
+        <file>icons8-chart-bar-32.png</file>
+        <file>shopping.png</file>
+        <file>icons8-shopping-cart-64.png</file>
+    </qresource>
+</RCC>
